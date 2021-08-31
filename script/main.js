@@ -414,7 +414,7 @@ const animationTimeline = () => {
     }, "+=1.5")
     .from(".idea-29", 0.7, ideaTextTrans)
     .to(".idea-29", 0.7, {
-      opacity: 0,
+      opacity: 1,
       y: 30,
       zIndex: "-1",
       delay:5
