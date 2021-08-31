@@ -274,10 +274,150 @@ const animationTimeline = () => {
     }, "+=1.5")
     .from(".idea-9", 0.7, ideaTextTrans)
     .to(".idea-9", 0.7, {
-      opacity: 1,
+      opacity: 0,
       y: 30,
       zIndex: "-1",
-      delay:10
+      delay:5
+    }, "+=1.5")
+    .from(".idea-10", 0.7, ideaTextTrans)
+    .to(".idea-10", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-11", 0.7, ideaTextTrans)
+    .to(".idea-11", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-12", 0.7, ideaTextTrans)
+    .to(".idea-12", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-13", 0.7, ideaTextTrans)
+    .to(".idea-13", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-14", 0.7, ideaTextTrans)
+    .to(".idea-14", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-15", 0.7, ideaTextTrans)
+    .to(".idea-15", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-16", 0.7, ideaTextTrans)
+    .to(".idea-16", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-17", 0.7, ideaTextTrans)
+    .to(".idea-17", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-18", 0.7, ideaTextTrans)
+    .to(".idea-18", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-19", 0.7, ideaTextTrans)
+    .to(".idea-19", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-20", 0.7, ideaTextTrans)
+    .to(".idea-20", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-21", 0.7, ideaTextTrans)
+    .to(".idea-21", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-22", 0.7, ideaTextTrans)
+    .to(".idea-22", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-23", 0.7, ideaTextTrans)
+    .to(".idea-23", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-24", 0.7, ideaTextTrans)
+    .to(".idea-24", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-25", 0.7, ideaTextTrans)
+    .to(".idea-25", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-26", 0.7, ideaTextTrans)
+    .to(".idea-26", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-27", 0.7, ideaTextTrans)
+    .to(".idea-27", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-28", 0.7, ideaTextTrans)
+    .to(".idea-28", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-29", 0.7, ideaTextTrans)
+    .to(".idea-29", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
     }, "+=1.5")
 //    .from(".idea-8", 0.7, ideaTextTrans)
   // tl.seek("currentStep");
