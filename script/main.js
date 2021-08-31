@@ -370,13 +370,6 @@ const animationTimeline = () => {
       zIndex: "-1",
       delay:5
     }, "+=1.5")
-    .from(".idea-23", 0.7, ideaTextTrans)
-    .to(".idea-23", 0.7, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1",
-      delay:5
-    }, "+=1.5")
     .from(".idea-24", 0.7, ideaTextTrans)
     .to(".idea-24", 0.7, {
       opacity: 0,
