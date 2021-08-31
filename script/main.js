@@ -410,28 +410,56 @@ const animationTimeline = () => {
       opacity: 0,
       y: 30,
       zIndex: "-1",
-      delay:30
+      delay:15
     }, "+=1.5")
     .from(".idea-30", 0.7, ideaTextTrans)
     .to(".idea-30", 0.7, {
       opacity: 0,
       y: 30,
       zIndex: "-1",
-      delay:30
+      delay:15
     }, "+=1.5")
     .from(".idea-31", 0.7, ideaTextTrans)
     .to(".idea-31", 0.7, {
       opacity: 0,
       y: 30,
       zIndex: "-1",
-      delay:30
+      delay:15
     }, "+=1.5")
     .from(".idea-32", 0.7, ideaTextTrans)
     .to(".idea-32", 0.7, {
-      opacity: 1,
+      opacity: 0,
       y: 30,
       zIndex: "-1",
-      delay:100
+      delay:15
+    }, "+=1.5")
+    .from(".idea-33", 0.7, ideaTextTrans)
+    .to(".idea-33", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:15
+    }, "+=1.5")
+    .from(".idea-34", 0.7, ideaTextTrans)
+    .to(".idea-34", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:15
+    }, "+=1.5")
+    .from(".idea-35", 0.7, ideaTextTrans)
+    .to(".idea-35", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:15
+    }, "+=1.5")
+    .from(".idea-36", 0.7, ideaTextTrans)
+    .to(".idea-36", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:15
     }, "+=1.5")
 //    .from(".idea-8", 0.7, ideaTextTrans)
   // tl.seek("currentStep");
