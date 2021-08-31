@@ -448,17 +448,5 @@ const animationTimeline = () => {
   
 };
 
-var objDate = new Date();
-var hours = objDate.getHours();
-if(hours >= 0 && hours <= 1){
-  console.log("HERE");
-  console.log(hours);
-  animationTimeline();
-    
-}
-else{
-    console.log("HEREE");
-      console.log(hours);
-document.write('We Are Closed');
-    
-}
+
+animationTimeline();    
