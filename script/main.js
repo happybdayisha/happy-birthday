@@ -258,10 +258,28 @@ const animationTimeline = () => {
     })
     //.staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     //.staggerFrom(".nine p", 0.7, ideaTextTrans, 1.2)
-    .staggerTo(".idea-7", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-7", 0.7, ideaTextTrans)
-    .to(".idea-12", 0.7, ideaTextTransLeave, "+=1.5")
-
+    .to(".idea-7", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-8", 0.7, ideaTextTrans)
+    .to(".idea-8", 0.7, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1",
+      delay:5
+    }, "+=1.5")
+    .from(".idea-9", 0.7, ideaTextTrans)
+    .to(".idea-9", 0.7, {
+      opacity: 1,
+      y: 30,
+      zIndex: "-1",
+      delay:10
+    }, "+=1.5")
+//    .from(".idea-8", 0.7, ideaTextTrans)
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
