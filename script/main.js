@@ -256,51 +256,18 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
-    .to(
-      ".last-smile",
-      0.5,
-      {
-        rotation: 90
-      },
-      "+=1"
-    );
+    //.staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    //.staggerFrom(".nine p", 0.7, ideaTextTrans, 1.2)
+    .staggerTo(".idea-7", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-7", 0.7, ideaTextTrans)
+    .to(".idea-12", 0.7, ideaTextTransLeave, "+=1.5")
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
   // Restart Animation on click
-  const replyBtn = document.getElementById("replay");
-  replyBtn.addEventListener("click", () => {
-    tl.restart();
-  });
+  
 };
 
-// Import the data to customize and insert them into page
-const fetchData = () => {
-  fetch("customize.json")
-    .then(data => data.json())
-    .then(data => {
-      Object.keys(data).map(customData => {
-        if (data[customData] !== "") {
-          if (customData === "imagePath") {
-            document
-              .getElementById(customData)
-              .setAttribute("src", data[customData]);
-          } else {
-            document.getElementById(customData).innerText = data[customData];
-          }
-        }
-      });
-    });
-};
 
-// Run fetch and animation in sequence
-const resolveFetch = () => {
-  return new Promise((resolve, reject) => {
-    fetchData();
-    resolve("Fetch done!");
-  });
-};
-
-resolveFetch().then(animationTimeline());
+animationTimeline();

@@ -17,6 +17,14 @@ body {
   overflow: hidden;
 }
 
+.ten {
+  visibility: hidden;
+}
+
+.idea-8 {
+  visibility: hidden;
+}
+
 .container div.six {
   top: 10vh;
   z-index: 1;
@@ -86,6 +94,13 @@ body {
 }
 
 .five p {
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.ten p {
   font-size: 2rem;
   position: absolute;
   left: 0;
